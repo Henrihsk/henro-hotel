@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms - Henro Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hotel Henro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="rooms.html">Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gastronomy.html">Gastronomy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spa.html">Spa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-dark" id="toggle-theme">🌙 Dark Mode</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container my-5">
+        <h1 class="text-center">Our Rooms</h1>
+        <p class="text-center lead">Experience luxury and comfort at Henro Hotel.</p>
+
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card room-card">
+                    <img src="images/rooms-deluxe.jpg" class="card-img-top" alt="Deluxe Room">
+                    <div class="card-body">
+                        <h5 class="card-title">Deluxe Room</h5>
+                        <p class="card-text">Spacious and elegantly designed, our Deluxe Room features a king-size bed, private balcony, and stunning views.</p>
+                        <p class="price">$199 / night</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4">
+                <div class="card room-card">
+                    <img src="images/rooms-executive.jpg" class="card-img-top" alt="Executive Suite">
+                    <div class="card-body">
+                        <h5 class="card-title">Executive Suite</h5>
+                        <p class="card-text">A luxurious suite with a separate living area, premium amenities, and breathtaking city views.</p>
+                        <p class="price">$299 / night</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4">
+                <div class="card room-card">
+                    <img src="images/rooms-presidential.jpg" class="card-img-top" alt="Presidential Suite">
+                    <div class="card-body">
+                        <h5 class="card-title">Presidential Suite</h5>
+                        <p class="card-text">The ultimate luxury experience with a private lounge, jacuzzi, and exclusive concierge service.</p>
+                        <p class="price">$499 / night</p>
+                        <a href="#" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p>Address: 123 Hotel Road, Cityville</p>
+            <p>Email: contact@hotel.com | Phone: +371 2 456 7890</p>
+            <p>&copy; 2025 Henro Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
